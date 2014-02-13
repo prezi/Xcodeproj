@@ -115,6 +115,8 @@ module Xcodeproj
         #
         attribute :comments, String
 
+        attribute :refType, String, '0'
+
         #---------------------------------------------------------------------#
 
         public

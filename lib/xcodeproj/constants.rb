@@ -39,6 +39,7 @@ module Xcodeproj
         PBXProject
         PBXTargetDependency
         PBXReferenceProxy
+        PBXBuildStyle
       ],
 
       'AbstractBuildPhase' => %w[

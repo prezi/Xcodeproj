@@ -69,6 +69,12 @@ module Xcodeproj
           :product_group => PBXGroup
         }
 
+        has_many :build_styles, PBXBuildStyle
+
+        # @return [Hash] the build settings to use for building the target.
+        #
+        attribute :build_settings, Hash, {}
+
       end
     end
   end

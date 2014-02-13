@@ -488,4 +488,5 @@ require 'xcodeproj/project/object/native_target'
 require 'xcodeproj/project/object/root_object'
 require 'xcodeproj/project/object/target_dependency'
 require 'xcodeproj/project/object/reference_proxy'
+require 'xcodeproj/project/object/build_style'
 
